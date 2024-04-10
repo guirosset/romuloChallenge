@@ -8,6 +8,7 @@ Feature: WebJumpTest
     Scenario: Makes buttons to disappear
         When user clicks on button one
         Then user clicks on button two
+        And user clicks on button three
 
 
 #    @qualquercoisa

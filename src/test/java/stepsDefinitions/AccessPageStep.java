@@ -31,6 +31,11 @@ public class AccessPageStep extends BaseClass {
     public void userClicksOnBtnTwo(){
         wj.btnTwoClick();
     }
+
+    @When("user clicks on button three")
+    public void userClicksOnBtnThree() throws InterruptedException {
+        wj.btnThreeClick();
+    }
 }
 //    @When("I fill in the login form with the data email {string} and password {string}")
 //    public void iFillInTheLoginFormWithTheDataEmailAndPassword(String email, String password) {

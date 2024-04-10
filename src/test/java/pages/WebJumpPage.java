@@ -16,4 +16,10 @@ public class WebJumpPage extends WebJumpPageMap {
     public void btnTwoClick(){
         getBtnTwo().click();
     }
+
+    public void btnThreeClick() throws InterruptedException {
+        getBtnThree().click();
+        Thread.sleep(1500);
+
+    }
 }
